@@ -1,0 +1,26 @@
+# Screenreader Proofreader
+name: Screenreader Alt-Text Locator
+
+# Trigger the event when the repo is starred (as close to a manual run as possible with the current API)
+on:
+  watch:
+    types: [started]
+
+jobs:
+  # This job contains a job called "scan"
+  scan:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    # Search the directory for files that contain "https://cdn" 
+    # This would indicate that the file contains an embedded figure which needs alt-text
+    - name: Total figure count
+      run: grep -R "https://cdn" * | wc -l
+      
+    - name: List of files which contain figures
+      run: grep -Rl "https://cdn" * | xargs grep -L "alt-text"

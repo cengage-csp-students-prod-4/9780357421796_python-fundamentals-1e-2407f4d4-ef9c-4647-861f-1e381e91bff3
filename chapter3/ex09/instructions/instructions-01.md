@@ -1,0 +1,1 @@
+**Task #01:** Implement the `for` loop with the conditions listed above

@@ -1,0 +1,1 @@
+**Task #01:** Program uses a `try...except` statement

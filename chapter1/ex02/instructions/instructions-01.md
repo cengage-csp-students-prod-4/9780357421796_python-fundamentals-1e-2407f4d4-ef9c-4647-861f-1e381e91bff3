@@ -1,0 +1,1 @@
+**Task #01:** Print arguments passed to a simple python script

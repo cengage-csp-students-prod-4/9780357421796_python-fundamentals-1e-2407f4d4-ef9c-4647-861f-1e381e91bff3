@@ -1,0 +1,1 @@
+**Task #01:** Define a function called `resources_scanner`

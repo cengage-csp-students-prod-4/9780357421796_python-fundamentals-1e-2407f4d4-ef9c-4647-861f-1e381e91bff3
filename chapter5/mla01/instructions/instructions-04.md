@@ -1,0 +1,3 @@
+# Getting the Count of the Cards in a Player’s Hands
+
+Your task is to complete the function stub `get_count(player)`. The function takes a player’s hand, which is a list, as input. The function calculates and returns the value of the player’s hand. It should be noted that a special mapping is required. Currently, in the deck, Jack has a value of 11, Queen has a value of 12, King has a value of 13, and Ace has a value of 14. You need to ensure that the Jack, Queen, and King cards all have a value of 10. Finally, for the purposes of this implementation, we will only treat the Ace with a value of 11.

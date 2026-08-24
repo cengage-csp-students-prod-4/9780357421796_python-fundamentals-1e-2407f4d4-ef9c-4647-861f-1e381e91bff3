@@ -1,0 +1,1 @@
+**Task #01:** Write a function called `number_randomizer` that generates random integers between 0 and 100.

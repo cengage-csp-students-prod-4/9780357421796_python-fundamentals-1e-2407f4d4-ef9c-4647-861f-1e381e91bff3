@@ -1,0 +1,1 @@
+**Task #01:** Calculate and print the speed in feet per second.

@@ -1,0 +1,1 @@
+**Task #02:** The program outputs the resources used in a package

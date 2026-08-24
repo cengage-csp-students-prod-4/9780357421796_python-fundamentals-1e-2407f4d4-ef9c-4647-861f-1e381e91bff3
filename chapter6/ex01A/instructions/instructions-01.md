@@ -1,0 +1,1 @@
+**Task #01:** Create a dictionary and verify its type

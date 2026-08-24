@@ -1,0 +1,1 @@
+**Task #01:** Create the class `BioTablet` that inherits properties from the `TabletCamera` and `Facial_recognition` classes.

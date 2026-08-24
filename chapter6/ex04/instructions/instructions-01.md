@@ -1,0 +1,1 @@
+**Task #01:** Write a function, `list_to_set`, that accepts a list and returns a set.

@@ -1,0 +1,1 @@
+**Task #02:** Calculate and print the speed in miles per hour.

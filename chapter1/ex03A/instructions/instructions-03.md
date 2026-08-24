@@ -1,0 +1,1 @@
+**Task #03:** Calculate and print the speed in knots.

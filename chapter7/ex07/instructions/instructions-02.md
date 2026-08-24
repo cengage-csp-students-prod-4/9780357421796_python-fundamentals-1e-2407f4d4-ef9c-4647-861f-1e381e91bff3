@@ -1,0 +1,1 @@
+**Task #02:** The program can initialize objects of type `BioTablet`, `Facial_recognition`, and `TabletCamera`.

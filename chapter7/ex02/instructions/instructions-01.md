@@ -1,0 +1,1 @@
+**Task #01:** Define the `TabletComputer` class in the *main.py* file.

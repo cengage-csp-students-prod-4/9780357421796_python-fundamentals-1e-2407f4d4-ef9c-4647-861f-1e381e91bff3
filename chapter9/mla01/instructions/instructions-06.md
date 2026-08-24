@@ -1,0 +1,3 @@
+# Create `is_email_valid_extended_finally()`
+
+Your code is now properly handling errors every time an incorrectly typed email address is entered. When an invalid email address is on the list, your solution handles the scenario and prevents the code from crashing. Instead, the code returns a user-friendly message indicating the problem. However, the valid email addresses (that is, the email addresses that pass the validation) are not returned because the exception handling interrupted the normal flow of the code. Considering this, create a function called `is_email_valid_extended_finally()` that implements the `finally` block and returns the list of valid email addresses after all the code has been executed. 

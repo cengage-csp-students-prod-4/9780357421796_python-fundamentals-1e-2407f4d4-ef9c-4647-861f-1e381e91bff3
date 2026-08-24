@@ -1,0 +1,1 @@
+**Task #02:** Did not create and write to the _newfile.txt_ file manually
