@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: The program displayed the correct message.
+Reason: Unable to find the correct message. Ensure your program displays 'This is a simple activity.'. Check for typos or case-sensitive characters.
+Error : AssertionError - Unable to find This is a simple activity. in the program's output.
+Timestamp: 2026-08-25 19:12:22.297101
