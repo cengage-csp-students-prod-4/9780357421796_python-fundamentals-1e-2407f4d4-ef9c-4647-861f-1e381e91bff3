@@ -10,6 +10,6 @@ speed_knots = distance_knots / time_hours
 speed_mph = distance_miles / time_hours
 speed_fps = distance_feet / time_seconds
 
-print(speed_knots)
-print(speed_mph)
+#print(speed_knots)
+#print(speed_mph)
 print(speed_fps)
