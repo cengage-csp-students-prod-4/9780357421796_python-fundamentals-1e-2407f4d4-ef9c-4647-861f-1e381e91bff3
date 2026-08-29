@@ -3,7 +3,7 @@
 This is going to generate a multiplication
 table for the number that the user inputs :D
 """
-whole_num = 7
+whole_num = int(input("Enter a whole number:"))
 print("__________")
 print("Number:", whole_num)
 print("2:", whole_num * 2)
