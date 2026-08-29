@@ -1,0 +1,26 @@
+
+Status: FAILED!
+Check: 1
+Test: Assign variable `whole_num`
+Reason: Unable to find 'whole_num = int(input("Generate a multiplication table for: "))' in the program.
+Error : str - AssertionError
+Timestamp: 2026-08-29 03:51:33.554890
+
+Status: PASSED!
+Check: 2
+Test: Docstring added
+Reason: ^("""|''').*(
+.*)*("""|''')` was found in the program.None
+Timestamp: 2026-08-29 03:51:33.557114
+
+Status: PASSED!
+Check: 3
+Test: Output is correct
+Reason: None
+Timestamp: 2026-08-29 03:51:33.573112
+
+Status: PASSED!
+Check: 4
+Test: Output is formatted correctly
+Reason: None
+Timestamp: 2026-08-29 03:51:33.597390
