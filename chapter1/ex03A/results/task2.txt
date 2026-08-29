@@ -1,11 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: The speed in miles per hour.
-Reason: Unable to find '['The speed in miles per hour is', '20.0']' in the program's output.
-The speed in knots is:  17.37951650185092
-The speed in miles per hours is:  20.0
-The speed in feet per second is:  29.333333333333332
-.
-Error : AssertionError - Unable to find The speed in miles per hour is in the program's output.
-Timestamp: 2026-08-29 03:11:03.983188
+Reason: None
+Timestamp: 2026-08-29 03:11:37.380671
