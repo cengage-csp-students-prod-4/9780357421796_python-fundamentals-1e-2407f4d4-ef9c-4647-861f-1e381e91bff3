@@ -10,6 +10,6 @@ speed_knots = distance_knots / time_hours
 speed_mph = distance_miles / time_hours
 speed_fps = distance_feet / time_seconds
 
-#print("The speed in knots is: " , speed_knots)
+print("The speed in knots is: " , speed_knots)
 print("The speed in miles per hour is: ", speed_mph)
 print("The speed in feet per second is: ", speed_fps)
