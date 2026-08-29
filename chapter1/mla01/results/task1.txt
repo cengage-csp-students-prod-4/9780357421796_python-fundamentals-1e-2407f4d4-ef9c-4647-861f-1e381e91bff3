@@ -1,0 +1,22 @@
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: 
+Error : AssertionError - '10 kg converted is 22.0462 pounds and 352.74 ounces.' != '10  kg converted is  22.0462 pounds and  352.74 ounces.'
+- 10 kg converted is 22.0462 pounds and 352.74 ounces.
++ 10  kg converted is  22.0462 pounds and  352.74 ounces.
+?    +               +                   +
+
+Timestamp: 2026-08-29 05:31:31.700426
+
+Status: FAILED!
+Check: 2
+Test: 
+Reason: 
+Error : AssertionError - '7 kg converted is 15.432339999999998 pounds and 246.918 ounces.' != '7  kg converted is  15.432339999999998 pounds and  246.918 ounces.'
+- 7 kg converted is 15.432339999999998 pounds and 246.918 ounces.
++ 7  kg converted is  15.432339999999998 pounds and  246.918 ounces.
+?  +                +                              +
+
+Timestamp: 2026-08-29 05:31:31.700822
