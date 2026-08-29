@@ -1,0 +1,11 @@
+
+Status: FAILED!
+Check: 1
+Test: The speed in feet per second.
+Reason: Unable to find '['The speed in feet per second is', '29.333333333333332']' in the program's output.
+17.37951650185092
+20.0
+29.333333333333332
+.
+Error : AssertionError - Unable to find The speed in feet per second is in the program's output.
+Timestamp: 2026-08-29 03:08:34.478705
