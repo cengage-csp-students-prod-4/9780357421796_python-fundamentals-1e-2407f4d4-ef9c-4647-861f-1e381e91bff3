@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Created the list for **Protocol**
+Reason: valid_protocols = ['http', 'https', 'ftp']` was found in the program.None
+Timestamp: 2026-09-09 18:23:05.167457
+
+Status: PASSED!
+Check: 2
+Test: Created the list for **File**
+Reason: valid_fileinfo = ['.html', '.csv', '.docx']` was found in the program.None
+Timestamp: 2026-09-09 18:23:05.167793
