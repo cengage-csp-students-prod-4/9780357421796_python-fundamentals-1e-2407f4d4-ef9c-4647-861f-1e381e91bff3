@@ -6,7 +6,7 @@ Reason: Unable to find '["There are 3 occurrences of 'because' in the sentence"]
 Sentence: Word to look for in sentence: There are 3 occurances of 'because' in the sentence.
 .
 Error : AssertionError - Unable to find There are 3 occurrences of 'because' in the sentence in the program's output.
-Timestamp: 2026-09-09 00:59:13.602474
+Timestamp: 2026-09-09 00:59:21.662573
 
 Status: FAILED!
 Check: 2
@@ -15,7 +15,7 @@ Reason: Unable to find '["There are 5 occurrences of 'that' in the sentence"]' i
 Sentence: Word to look for in sentence: There are 5 occurances of 'that' in the sentence.
 .
 Error : AssertionError - Unable to find There are 5 occurrences of 'that' in the sentence in the program's output.
-Timestamp: 2026-09-09 00:59:13.623714
+Timestamp: 2026-09-09 00:59:21.676958
 
 Status: FAILED!
 Check: 3
@@ -24,4 +24,4 @@ Reason: Unable to find '["There are 8 occurrences of 'said' in the sentence"]' i
 Sentence: Word to look for in sentence: There are 8 occurances of 'said' in the sentence.
 .
 Error : AssertionError - Unable to find There are 8 occurrences of 'said' in the sentence in the program's output.
-Timestamp: 2026-09-09 00:59:13.637706
+Timestamp: 2026-09-09 00:59:21.691459
