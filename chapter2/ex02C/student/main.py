@@ -6,5 +6,5 @@ clean_string = str.strip(str.lower(user_input_string))
 
 occurances = clean_string.count(word_to_look_for)
 
-print(f"There are {occurances} of {word_to_look_for} in the sentence")
+print(f"There are {occurances} of '{word_to_look_for}' in the sentence")
 
