@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: **0** exits the program
 Reason: None
-Timestamp: 2026-09-11 02:30:03.650995
+Timestamp: 2026-09-11 02:30:18.425944
 
 Status: PASSED!
 Check: 2
 Test: Program generates a text driven menu using the default values
 Reason: None
-Timestamp: 2026-09-11 02:30:03.677874
+Timestamp: 2026-09-11 02:30:18.442855
