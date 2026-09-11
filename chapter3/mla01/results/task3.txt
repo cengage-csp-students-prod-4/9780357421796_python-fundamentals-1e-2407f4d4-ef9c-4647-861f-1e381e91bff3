@@ -1,0 +1,24 @@
+
+Status: PASSED!
+Check: 1
+Test: "What if" analysis calculated from -10 to +10 for expenses
+Reason: None
+Timestamp: 2026-09-11 02:27:10.250161
+
+Status: PASSED!
+Check: 2
+Test: "What if" analysis calculated from -10 to +10 for income
+Reason: None
+Timestamp: 2026-09-11 02:27:10.266832
+
+Status: PASSED!
+Check: 3
+Test: "What if" analysis calculated from -10 to +10 for expenses using the default values
+Reason: None
+Timestamp: 2026-09-11 02:27:10.287192
+
+Status: PASSED!
+Check: 4
+Test: "What if" analysis calculated from -10 to +10 for income using the default values
+Reason: None
+Timestamp: 2026-09-11 02:27:10.305445

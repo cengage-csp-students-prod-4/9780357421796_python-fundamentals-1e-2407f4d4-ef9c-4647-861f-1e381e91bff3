@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: **0** exits the program
+Reason: None
+Timestamp: 2026-09-11 02:27:09.969313
+
+Status: PASSED!
+Check: 2
+Test: Program generates a text driven menu using the default values
+Reason: None
+Timestamp: 2026-09-11 02:27:09.985534
