@@ -1,102 +1,30 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: User can set the cost per serving
-Reason: Unable to find '[' 1. Cost per serving: 2.0']' in the program's output.
-
-Expenses:
-1. Cost per serving: 1.0
-2. Labor rate per hour: 7.5
-3. Shop rental per month: 800
-4. Utilities per month: 150
-5. Advertising budget per month: 100
-
-Income:
-6. Selling price (each): 4.0
-7. Servings sold per month: 1000
-
-Analysis:
-8. Profit/Loss Calculation
-9. "What If" analysis with 10% variance
-10. Find Break-Even
-
-Enter Selection (0 to Exit): Enter cost per serving: 
-Expenses:
-1. Cost per serving: 2.0
-2. Labor rate per hour: 7.5
-3. Shop rental per month: 800
-4. Utilities per month: 150
-5. Advertising budget per month: 100
-
-Income:
-6. Selling price (each): 4.0
-7. Servings sold per month: 1000
-
-Analysis:
-8. Profit/Loss Calculation
-9. "What If" analysis with 10% variance
-10. Find Break-Even
-
-Enter Selection (0 to Exit): .
-Error : AssertionError - Unable to find  1. Cost per serving: 2.0 in the program's output.
-Timestamp: 2026-09-11 02:27:10.550193
+Reason: None
+Timestamp: 2026-09-11 02:30:04.275396
 
 Status: PASSED!
 Check: 2
 Test: User can set the labor rate per hour
 Reason: None
-Timestamp: 2026-09-11 02:27:10.566023
+Timestamp: 2026-09-11 02:30:04.292569
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: User can set the shop rental per month
-Reason: Unable to find '[' 3. Shop rental per month: 500.0']' in the program's output.
-
-Expenses:
-1. Cost per serving: 1.0
-2. Labor rate per hour: 7.5
-3. Shop rental per month: 800
-4. Utilities per month: 150
-5. Advertising budget per month: 100
-
-Income:
-6. Selling price (each): 4.0
-7. Servings sold per month: 1000
-
-Analysis:
-8. Profit/Loss Calculation
-9. "What If" analysis with 10% variance
-10. Find Break-Even
-
-Enter Selection (0 to Exit): Enter shop rental per month: 
-Expenses:
-1. Cost per serving: 1.0
-2. Labor rate per hour: 7.5
-3. Shop rental per month: 500.0
-4. Utilities per month: 150
-5. Advertising budget per month: 100
-
-Income:
-6. Selling price (each): 4.0
-7. Servings sold per month: 1000
-
-Analysis:
-8. Profit/Loss Calculation
-9. "What If" analysis with 10% variance
-10. Find Break-Even
-
-Enter Selection (0 to Exit): .
-Error : AssertionError - Unable to find  3. Shop rental per month: 500.0 in the program's output.
-Timestamp: 2026-09-11 02:27:10.581753
+Reason: None
+Timestamp: 2026-09-11 02:30:04.308562
 
 Status: PASSED!
 Check: 4
 Test: User can set the utilities per month
 Reason: None
-Timestamp: 2026-09-11 02:27:10.597288
+Timestamp: 2026-09-11 02:30:04.324204
 
 Status: PASSED!
 Check: 5
 Test: User can set the advertising budget per month
 Reason: None
-Timestamp: 2026-09-11 02:27:10.612966
+Timestamp: 2026-09-11 02:30:04.339818
