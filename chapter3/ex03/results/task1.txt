@@ -1,19 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Program uses a `while` loop
-Reason: Unable to find 'while not valid:' in the program.
-Error : str - AssertionError
-Timestamp: 2026-09-11 01:29:37.158406
+Reason: while not valid:` was found in the program.None
+Timestamp: 2026-09-11 01:32:22.529131
 
 Status: PASSED!
 Check: 2
 Test: Validate a correct password
 Reason: None
-Timestamp: 2026-09-11 01:29:37.174044
+Timestamp: 2026-09-11 01:32:22.544482
 
 Status: PASSED!
 Check: 3
 Test: Program handles an incorrect password entry
 Reason: None
-Timestamp: 2026-09-11 01:29:37.188931
+Timestamp: 2026-09-11 01:32:22.559564

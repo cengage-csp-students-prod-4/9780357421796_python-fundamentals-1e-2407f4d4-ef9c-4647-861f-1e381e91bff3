@@ -1,14 +1,12 @@
-name = input("Enter you name: ")
-password = input("Enter your password: ")
+name = input("Enter your name: ")
+real_password = "Pas$Word"
 
-real_password = "Pas$Word" 
-
-if(password == real_password):
-    print(f"Welcome back, {name}")
-
-
-while(password != real_password):
-    print("Incorrect password, try again...")
+valid = False
+while not valid:
     password = input("Enter your password: ")
-    if(password == real_password):
-        print(f"Welcome back, {name}")
+    if password == real_password:
+        valid = True
+    else:
+        print("Incorrect password, try again...")
+
+print(f"Welcome back, {name}")
