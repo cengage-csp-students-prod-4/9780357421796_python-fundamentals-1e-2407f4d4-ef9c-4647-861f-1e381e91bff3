@@ -1,0 +1,18 @@
+
+Status: PASSED!
+Check: 1
+Test: `calculate_gains_over_time` works as expected, test 1
+Reason: None
+Timestamp: 2026-09-15 21:39:14.280175
+
+Status: PASSED!
+Check: 2
+Test: `calculate_gains_over_time` works as expected, test 2
+Reason: None
+Timestamp: 2026-09-15 21:39:14.280343
+
+Status: PASSED!
+Check: 3
+Test: `calculate_gains_over_time` works as expected, test 3
+Reason: None
+Timestamp: 2026-09-15 21:39:14.280490
