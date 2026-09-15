@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: `calculate_gains` works as expected, test 1
 Reason: None
-Timestamp: 2026-09-15 21:39:14.139576
+Timestamp: 2026-09-15 21:39:38.590108
 
 Status: PASSED!
 Check: 2
 Test: `calculate_gains` works as expected, test 2
 Reason: None
-Timestamp: 2026-09-15 21:39:14.139742
+Timestamp: 2026-09-15 21:39:38.590287
