@@ -1,0 +1,18 @@
+
+Status: PASSED!
+Check: 1
+Test: Checking if a player has won
+Reason: None
+Timestamp: 2026-09-20 22:35:20.570807
+
+Status: PASSED!
+Check: 2
+Test: Checking if a player has lost
+Reason: None
+Timestamp: 2026-09-20 22:35:20.570951
+
+Status: PASSED!
+Check: 3
+Test: Checking if a player can hit
+Reason: None
+Timestamp: 2026-09-20 22:35:20.571085
