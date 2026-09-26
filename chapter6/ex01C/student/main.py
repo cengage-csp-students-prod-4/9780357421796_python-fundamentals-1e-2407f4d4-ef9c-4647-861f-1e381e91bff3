@@ -6,6 +6,7 @@ def content_combiner(dic1, dic2):
     for key, value in dic2.items():
         new_dic[key] = value
 
+    print(new_dic)
     return new_dic
 
 
