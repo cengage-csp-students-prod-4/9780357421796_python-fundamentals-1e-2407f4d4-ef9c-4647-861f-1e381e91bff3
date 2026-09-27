@@ -269,7 +269,6 @@ def run_tests():
     assert objects_encountered_in_galaxy2_not_galaxy1(a, b) == {'y'}
     assert common_objects_encountered(a, b) == {'S', 'G'}
     assert objects_encountered_in_both_galaxys(a, b) == {'S', 'G', 'x', 'y'}
-    # Robustness checks for the shapes a grader might send
     assert calculate_euclidean_distance([1, 2]) == 2
     list_symbols = [(1, (1, 0), ['F']), (4, (4, 0), ['G']), (5, (5, 0), ['T'])]
     assert calculate_path_to_goal(list_symbols) == [(1, (1, 0), ['F'])]
