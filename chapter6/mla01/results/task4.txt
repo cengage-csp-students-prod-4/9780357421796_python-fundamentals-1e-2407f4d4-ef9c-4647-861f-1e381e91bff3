@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: `get_unique_objects` returns a `frozenset` of coordinates of the unique objects
+Reason: None
+Timestamp: 2026-09-27 07:27:55.432933
+
+Status: PASSED!
+Check: 2
+Test: `get_unique_objects` returns a verifiable `frozenset` of the of the unique objects
+Reason: None
+Timestamp: 2026-09-27 07:27:55.433165
