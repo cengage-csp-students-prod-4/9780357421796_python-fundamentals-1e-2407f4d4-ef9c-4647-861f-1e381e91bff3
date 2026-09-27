@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: `calculate_euclidean_distance` returns an integer value 
 Reason: None
-Timestamp: 2026-09-27 07:38:40.180974
+Timestamp: 2026-09-27 07:38:55.270211
 
 Status: PASSED!
 Check: 2
 Test: `calculate_euclidean_distance` returns the correct distances
 Reason: None
-Timestamp: 2026-09-27 07:38:40.181521
+Timestamp: 2026-09-27 07:38:55.270655
