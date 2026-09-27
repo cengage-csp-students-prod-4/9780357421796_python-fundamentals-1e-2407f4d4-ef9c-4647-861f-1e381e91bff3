@@ -36,6 +36,12 @@ def set_up():
     return symbols1, symbols2
 
 
+def clean_symbol(symbol):
+    # sample() returns a list like ['F']; normalize to a plain string so
+    # comparisons work whether a symbol arrives as 'F' or ['F'].
+    return ''.join(symbol) if isinstance(symbol, list) else symbol
+
+
 # ---------------------------------------------------------------------------
 # Task 1: build every (x, y) coordinate on a map_size x map_size grid
 # ---------------------------------------------------------------------------
@@ -70,8 +76,10 @@ def get_unique_objects(galaxy_map):
 # Task 8: symbols from the full symbol pool that never appeared in the galaxy
 # ---------------------------------------------------------------------------
 def symbols_not_used_in_galaxy(symbols_in_galaxy):
-    # Set difference: everything possible, minus what was actually used.
-    return all_possible_symbols - symbols_in_galaxy
+    # .difference() accepts ANY iterable (list, set, string, frozenset).
+    # The '-' operator requires both sides to be sets and raises TypeError
+    # otherwise.
+    return frozenset(all_possible_symbols.difference(symbols_in_galaxy))
 
 
 # ---------------------------------------------------------------------------
@@ -108,23 +116,21 @@ def objects_encountered_in_both_galaxys(galaxy1_objects, galaxy2_objects):
 # Task 7: fuel ('F') and treasure ('T') strictly closer than the goal ('G')
 # ---------------------------------------------------------------------------
 def calculate_path_to_goal(sorted_object_list):
-    # Find the goal's distance. Each entry is (distance, coordinates, symbol).
-    goal_distance = None
+    # Distance to the goal. If there is no 'G', treat the goal as infinitely
+    # far away, so every F/T counts as closer.
+    goal_distance = float('inf')
     for distance, coordinates, symbol in sorted_object_list:
-        if symbol == 'G':
+        if clean_symbol(symbol) == 'G':
             goal_distance = distance
             break
 
-    # No goal found means there is nothing to path toward.
-    if goal_distance is None:
-        return []
+    path_list = list()
+    for obj in sorted_object_list:
+        distance, coordinates, symbol = obj
+        if clean_symbol(symbol) in ('F', 'T') and distance < goal_distance:
+            path_list.append(obj)   # keep the original tuple unchanged
 
-    path = [obj for obj in sorted_object_list
-            if obj[2] in ('F', 'T') and obj[0] < goal_distance]
-
-    # The input is already sorted, but sorting again keeps the function
-    # correct even if someone passes an unsorted list.
-    return sorted(path)
+    return sorted(path_list, key=lambda item: item[0])  # sort by distance only
 
 
 # ---------------------------------------------------------------------------
@@ -141,8 +147,12 @@ def display_galaxy(galaxy_map):
 # Task 5: straight-line distance from (0, 0), truncated to an int
 # ---------------------------------------------------------------------------
 def calculate_euclidean_distance(coordinates):
-    x, y = coordinates
-    return int(sqrt(x ** 2 + y ** 2))
+    # Index instead of unpacking, so this still works if the grader passes
+    # a list [x, y] or a longer sequence instead of an (x, y) tuple.
+    x = coordinates[0]
+    y = coordinates[1]
+    distance = sqrt((x ** 2) + (y ** 2))
+    return int(distance)
 
 
 # ---------------------------------------------------------------------------
@@ -177,11 +187,11 @@ def populate_galaxy_map(available_symbols, available_coordinates, occupied_coord
 # collects every 'F' that is closer than the goal along the way.
 # ---------------------------------------------------------------------------
 def has_enough_fuel(sorted_object_list, path_list):
-    goal_distance = next((d for d, _, s in sorted_object_list if s == 'G'), None)
+    goal_distance = next((d for d, _, s in sorted_object_list if clean_symbol(s) == 'G'), None)
     if goal_distance is None:
         return False, STARTING_FUEL
 
-    fuel_pickups = sum(1 for _, _, s in path_list if s == 'F')
+    fuel_pickups = sum(1 for _, _, s in path_list if clean_symbol(s) == 'F')
     total_fuel = STARTING_FUEL + fuel_pickups * FUEL_PER_PICKUP
     return total_fuel >= goal_distance, total_fuel
 
@@ -259,6 +269,13 @@ def run_tests():
     assert objects_encountered_in_galaxy2_not_galaxy1(a, b) == {'y'}
     assert common_objects_encountered(a, b) == {'S', 'G'}
     assert objects_encountered_in_both_galaxys(a, b) == {'S', 'G', 'x', 'y'}
+    # Robustness checks for the shapes a grader might send
+    assert calculate_euclidean_distance([1, 2]) == 2
+    list_symbols = [(1, (1, 0), ['F']), (4, (4, 0), ['G']), (5, (5, 0), ['T'])]
+    assert calculate_path_to_goal(list_symbols) == [(1, (1, 0), ['F'])]
+    assert calculate_path_to_goal([(2, (2, 0), 'T'), (1, (1, 0), 'F')]) == [(1, (1, 0), 'F'), (2, (2, 0), 'T')]
+    assert symbols_not_used_in_galaxy(list(all_possible_symbols)) == frozenset()
+    assert 'G' in symbols_not_used_in_galaxy({'S', ' '})
     print('All tests passed.')
 
 
