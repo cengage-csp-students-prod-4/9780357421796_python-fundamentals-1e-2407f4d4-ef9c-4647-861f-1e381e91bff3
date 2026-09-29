@@ -12,8 +12,8 @@ class Wheel:
     def wheel_perimeter(self, radius):
         self.perimeter = 2 * math.pi * radius
 
-    def swap_radius(self, radius):
-        self.radius = radius
+    def swap_radius(self, new_radius):
+        self.radius = new_radius
 
     
 
