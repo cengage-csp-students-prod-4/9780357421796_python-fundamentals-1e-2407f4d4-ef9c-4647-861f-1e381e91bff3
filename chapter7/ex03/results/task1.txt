@@ -3,16 +3,22 @@ Status: PASSED!
 Check: 1
 Test: `Wheel` objects can be initialized without error
 Reason: None
-Timestamp: 2026-09-29 02:15:07.885562
+Timestamp: 2026-09-29 02:17:17.272983
 
 Status: PASSED!
 Check: 2
 Test: Define the `Wheel` class in the *main.py* file.
 Reason: class Wheel:` was found in the program.None
-Timestamp: 2026-09-29 02:15:07.885834
+Timestamp: 2026-09-29 02:17:17.273317
 
 Status: PASSED!
 Check: 3
 Test: `Wheel`'s `wheel_area()` method works as expected
 Reason: None
-Timestamp: 2026-09-29 02:15:07.885965
+Timestamp: 2026-09-29 02:17:17.273456
+
+Status: PASSED!
+Check: 4
+Test: `Wheel`'s `wheel_perimeter()` method works as expected
+Reason: None
+Timestamp: 2026-09-29 02:17:17.273569

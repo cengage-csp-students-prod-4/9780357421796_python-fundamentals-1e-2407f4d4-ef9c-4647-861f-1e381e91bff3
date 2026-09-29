@@ -1,7 +1,5 @@
 import math
 
-# Write your Wheel class here
-
 class Wheel:
     def __init__(self, radius):
         self.radius = radius
@@ -10,15 +8,12 @@ class Wheel:
         return math.pi * self.radius ** 2
 
     def wheel_perimeter(self):
-        self.perimeter = 2 * math.pi * radius
+        return 2 * math.pi * self.radius
 
     def swap_radius(self, new_radius):
         self.radius = new_radius
 
-    
 
-
-# Use this to test your code
 if __name__ == "__main__":
     wheel = Wheel(7)
     morewheels = True
