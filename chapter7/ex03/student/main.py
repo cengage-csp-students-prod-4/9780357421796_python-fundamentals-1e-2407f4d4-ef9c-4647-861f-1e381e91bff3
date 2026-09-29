@@ -8,9 +8,11 @@ class Wheel:
 
     def wheel_area(self, radius):
         self.area = math.pi * radius ** 2
+        return self.area
 
     def wheel_perimeter(self, radius):
         self.perimeter = 2 * math.pi * radius
+        return self.area
 
     def swap_radius(self, radius):
         self.radius = radius

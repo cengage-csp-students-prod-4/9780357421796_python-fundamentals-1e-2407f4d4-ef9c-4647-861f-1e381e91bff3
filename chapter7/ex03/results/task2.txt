@@ -3,32 +3,32 @@ Status: FAILED!
 Check: 1
 Test: Program accepts user input, test 1
 Reason: Unable to find '['Surface area of wheel: 15.483025233951938', 'Perimeter of wheel: 13.948671381938683']' in the program's output.
-Radius of wheel: Surface area of wheel: None
-Perimeter of wheel: None
+Radius of wheel: Surface area of wheel: 15.483025233951938
+Perimeter of wheel: 15.483025233951938
 More wheels? Y/N .
-Error : AssertionError - Unable to find Surface area of wheel: 15.483025233951938 in the program's output.
-Timestamp: 2026-09-29 02:09:36.488485
+Error : AssertionError - Unable to find Perimeter of wheel: 13.948671381938683 in the program's output.
+Timestamp: 2026-09-29 02:10:43.319447
 
 Status: FAILED!
 Check: 1
 Test: 
 Reason: 
 Error : AssertionError - Failed
-Timestamp: 2026-09-29 02:09:36.488594
+Timestamp: 2026-09-29 02:10:43.319543
 
 Status: FAILED!
 Check: 2
 Test: Program accepts user input, test 2
 Reason: Unable to find '['Surface area of wheel: 314.1592653589793', 'Perimeter of wheel: 62.83185307179586']' in the program's output.
-Radius of wheel: Surface area of wheel: None
-Perimeter of wheel: None
+Radius of wheel: Surface area of wheel: 314.1592653589793
+Perimeter of wheel: 314.1592653589793
 More wheels? Y/N .
-Error : AssertionError - Unable to find Surface area of wheel: 314.1592653589793 in the program's output.
-Timestamp: 2026-09-29 02:09:36.505599
+Error : AssertionError - Unable to find Perimeter of wheel: 62.83185307179586 in the program's output.
+Timestamp: 2026-09-29 02:10:43.335883
 
 Status: FAILED!
 Check: 2
 Test: 
 Reason: 
 Error : AssertionError - Failed
-Timestamp: 2026-09-29 02:09:36.505686
+Timestamp: 2026-09-29 02:10:43.335971
