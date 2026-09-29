@@ -6,13 +6,11 @@ class Wheel:
     def __init__(self, radius):
         self.radius = radius
 
-    def wheel_area(self, radius):
-        self.area = math.pi * radius ** 2
-        return self.area
+    def wheel_area(self):
+        return math.pi * self.radius ** 2
 
     def wheel_perimeter(self, radius):
         self.perimeter = 2 * math.pi * radius
-        return self.area
 
     def swap_radius(self, radius):
         self.radius = radius
