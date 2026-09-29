@@ -9,7 +9,7 @@ class Wheel:
     def wheel_area(self):
         return math.pi * self.radius ** 2
 
-    def wheel_perimeter(self, radius):
+    def wheel_perimeter(self):
         self.perimeter = 2 * math.pi * radius
 
     def swap_radius(self, new_radius):
@@ -26,6 +26,6 @@ if __name__ == "__main__":
         radius = float(input("Radius of wheel: "))
         wheel.swap_radius(radius)
         print("Surface area of wheel:", wheel.wheel_area())
-        print("Perimeter of wheel:", wheel.wheel_perimeter(radius))
+        print("Perimeter of wheel:", wheel.wheel_perimeter())
         yn = input('More wheels? Y/N ')
         morewheels = yn == 'y' or yn == 'Y'
