@@ -25,7 +25,7 @@ if __name__ == "__main__":
     while morewheels:
         radius = float(input("Radius of wheel: "))
         wheel.swap_radius(radius)
-        print("Surface area of wheel:", wheel.wheel_area(radius))
+        print("Surface area of wheel:", wheel.wheel_area())
         print("Perimeter of wheel:", wheel.wheel_perimeter(radius))
         yn = input('More wheels? Y/N ')
         morewheels = yn == 'y' or yn == 'Y'

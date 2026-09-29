@@ -1,64 +1,34 @@
 
 Status: FAILED!
-Reason: Unable to run main.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter7/ex03/main.py", line 28, in <module>
-    print("Surface area of wheel:", wheel.wheel_area(radius))
-                                    ~~~~~~~~~~~~~~~~^^^^^^^^
-TypeError: Wheel.wheel_area() takes 1 positional argument but 2 were given
-
-Timestamp: 2026-09-29 02:14:12.400503
-
-Status: FAILED!
-Reason: Unable to run main.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter7/ex03/main.py", line 28, in <module>
-    print("Surface area of wheel:", wheel.wheel_area(radius))
-                                    ~~~~~~~~~~~~~~~~^^^^^^^^
-TypeError: Wheel.wheel_area() takes 1 positional argument but 2 were given
-
-Timestamp: 2026-09-29 02:14:12.400606
+Check: 1
+Test: Program accepts user input, test 1
+Reason: Unable to find '['Surface area of wheel: 15.483025233951938', 'Perimeter of wheel: 13.948671381938683']' in the program's output.
+Radius of wheel: Surface area of wheel: 15.483025233951938
+Perimeter of wheel: None
+More wheels? Y/N .
+Error : AssertionError - Unable to find Perimeter of wheel: 13.948671381938683 in the program's output.
+Timestamp: 2026-09-29 02:15:08.059739
 
 Status: FAILED!
 Check: 1
 Test: 
 Reason: 
-Error : AssertionError - Traceback (most recent call last):
-  File "/tmp/test/python/chapter7/ex03/main.py", line 28, in <module>
-    print("Surface area of wheel:", wheel.wheel_area(radius))
-                                    ~~~~~~~~~~~~~~~~^^^^^^^^
-TypeError: Wheel.wheel_area() takes 1 positional argument but 2 were given
-
-Timestamp: 2026-09-29 02:14:12.400659
+Error : AssertionError - Failed
+Timestamp: 2026-09-29 02:15:08.059842
 
 Status: FAILED!
-Reason: Unable to run main.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter7/ex03/main.py", line 28, in <module>
-    print("Surface area of wheel:", wheel.wheel_area(radius))
-                                    ~~~~~~~~~~~~~~~~^^^^^^^^
-TypeError: Wheel.wheel_area() takes 1 positional argument but 2 were given
-
-Timestamp: 2026-09-29 02:14:12.458254
-
-Status: FAILED!
-Reason: Unable to run main.py
-Error: Traceback (most recent call last):
-  File "/tmp/test/python/chapter7/ex03/main.py", line 28, in <module>
-    print("Surface area of wheel:", wheel.wheel_area(radius))
-                                    ~~~~~~~~~~~~~~~~^^^^^^^^
-TypeError: Wheel.wheel_area() takes 1 positional argument but 2 were given
-
-Timestamp: 2026-09-29 02:14:12.458346
+Check: 2
+Test: Program accepts user input, test 2
+Reason: Unable to find '['Surface area of wheel: 314.1592653589793', 'Perimeter of wheel: 62.83185307179586']' in the program's output.
+Radius of wheel: Surface area of wheel: 314.1592653589793
+Perimeter of wheel: None
+More wheels? Y/N .
+Error : AssertionError - Unable to find Perimeter of wheel: 62.83185307179586 in the program's output.
+Timestamp: 2026-09-29 02:15:08.079794
 
 Status: FAILED!
 Check: 2
 Test: 
 Reason: 
-Error : AssertionError - Traceback (most recent call last):
-  File "/tmp/test/python/chapter7/ex03/main.py", line 28, in <module>
-    print("Surface area of wheel:", wheel.wheel_area(radius))
-                                    ~~~~~~~~~~~~~~~~^^^^^^^^
-TypeError: Wheel.wheel_area() takes 1 positional argument but 2 were given
-
-Timestamp: 2026-09-29 02:14:12.458395
+Error : AssertionError - Failed
+Timestamp: 2026-09-29 02:15:08.079890
