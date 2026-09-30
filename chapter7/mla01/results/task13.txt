@@ -3,4 +3,4 @@ Status: PASSED!
 Check: 1
 Test: Add movement to the extended cell classes
 Reason: None
-Timestamp: 2026-09-30 09:06:46.193188
+Timestamp: 2026-09-30 09:07:09.863532
