@@ -12,7 +12,17 @@ class Bird:
 
 # Write your Eagle class here
 
+class Eagle(Bird):
+    def __init__(self, wingspan, lifespan, speed):
+        super().__init__( wingspan, lifespan, speed)
+        self.clutch_size = 3
 
+    def __str__(self):
+        return f"The {type(self).__name__.lower()} "\
+            f"has a wingspan up to {self.wingspan}ft,"\
+            f" has a lifespan of {self.lifespan_in_years} years and "\
+            f"can fly at a maximum speed of {self.speed_in_mph}mph."\
+            f"Has a clutch size of {self.clutch_size}"        
 
 
 # This code is used to test your class
