@@ -1,4 +1,21 @@
 # Write your MoviePlayer class here
+class MoviePlayer:
+    firmware_version = 1.0
+    current_movie = ""
+    __movie_list = []
+
+    def __init__(self):
+        self.__movie_list = ["Surfs Up", "Beauty and the Beast", "Chicken Little"]
+
+    def update_firmware(self, version):
+        self.firmware_version = version
+
+    def play(self):
+        self.current_movie = self.__movie_list[0]
+
+    def list_movies(self):
+        print(self.__movie_list)
+
 
 
 # The code below is used to test your class
