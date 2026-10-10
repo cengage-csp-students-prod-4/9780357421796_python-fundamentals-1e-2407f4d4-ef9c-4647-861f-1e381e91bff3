@@ -1,14 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : FileNotFoundError - [Errno 2] No such file or directory: '../dataset/mailing_list.csv'
-Timestamp: 2026-10-10 06:01:24.952180
+Test: The `read_mailing_list_file` function reads in file contents and returns the filtered ids, test 1
+Reason: None
+Timestamp: 2026-10-10 06:03:39.948107
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : FileNotFoundError - [Errno 2] No such file or directory: '../dataset/mailing_list.csv'
-Timestamp: 2026-10-10 06:01:24.952373
+Test: The `read_mailing_list_file` function reads in file contents and returns the filtered ids, test 2
+Reason: None
+Timestamp: 2026-10-10 06:03:39.948394

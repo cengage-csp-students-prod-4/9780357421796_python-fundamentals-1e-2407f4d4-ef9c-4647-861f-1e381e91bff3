@@ -1,37 +1,36 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : AssertionError - An exception was raised while trying to save user ids to `output.csv`
-Timestamp: 2026-10-10 06:01:25.138918
+Test: The `save_output_file` saves the active user ids to a *output.csv*
+Reason: None
+Timestamp: 2026-10-10 06:03:40.085376
 
 Status: PASSED!
 Check: 2
 Test: Active user ids are stored in *output.csv*
 Reason: a50bd76f-bc4d-4141-9b5d-3bfb9cb4c65d` was found in the program.None
-Timestamp: 2026-10-10 06:01:25.139293
+Timestamp: 2026-10-10 06:03:40.085896
 
 Status: PASSED!
 Check: 3
 Test: Active user ids are stored in *output.csv*
 Reason: 480fb04a-d7cd-47c5-8079-b580cb14b4d9` was found in the program.None
-Timestamp: 2026-10-10 06:01:25.139515
+Timestamp: 2026-10-10 06:03:40.086205
 
 Status: PASSED!
 Check: 4
 Test: Active user ids are stored in *output.csv*
 Reason: 9e8fb253-d80d-47b5-8e1d-9a89b5bcc41b` was found in the program.None
-Timestamp: 2026-10-10 06:01:25.139712
+Timestamp: 2026-10-10 06:03:40.086445
 
 Status: PASSED!
 Check: 5
 Test: Active user ids are stored in *output.csv*
 Reason: 055dff79-7d09-4194-95f2-48dd586b8bd7` was found in the program.None
-Timestamp: 2026-10-10 06:01:25.139909
+Timestamp: 2026-10-10 06:03:40.086653
 
 Status: PASSED!
 Check: 6
 Test: Active user ids are stored in *output.csv*
 Reason: 41c30786-aa84-4d60-9879-0c53f8fad970` was found in the program.None
-Timestamp: 2026-10-10 06:01:25.140142
+Timestamp: 2026-10-10 06:03:40.086861

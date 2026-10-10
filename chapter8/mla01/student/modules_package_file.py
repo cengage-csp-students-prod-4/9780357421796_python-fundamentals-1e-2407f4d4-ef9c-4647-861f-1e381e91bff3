@@ -4,7 +4,7 @@ import csv
 from update_mailing_list import update_mailing_list
 
 # Global variable to set the base path to our dataset folder
-base_url = '../dataset/'
+base_url = ''
 
 
 def read_mailing_list_file(filename, io_mode):

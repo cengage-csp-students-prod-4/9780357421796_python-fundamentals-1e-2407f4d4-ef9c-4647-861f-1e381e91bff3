@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Global variable to set the base path to our dataset folder
-base_url = '../dataset/'
+base_url = ''
 
 
 def update_mailing_list_pandas(filename):
