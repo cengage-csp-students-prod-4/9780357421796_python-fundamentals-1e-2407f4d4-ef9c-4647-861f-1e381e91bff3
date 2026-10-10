@@ -1,34 +1,34 @@
-# Import suggested package
-from package import function
-
-
-def update_mailing_list_extended(mailing_list):
-     """
-       Your docstring documentation starts here.
-
-       For more information on how to proper document your function, please refer to the official PEP8:
-        https://www.python.org/dev/peps/pep-0008/#documentation-strings.
-
+def update_mailing_list(mailing_list):
     """
+    Filter a mailing list dictionary down to the users who can be notified.
 
-     # Checks it the flag `opt-out` is present. You can use lower() to lowercase the flags and contemplate both
-     # `opt-out` and `OPT-OUT` cases
-     # Then, checks for the presence of the `unsubscribed` flag Finally,
-     # checks if the email address contains `@gmail` provider
-     for key, value in mailing_list_copy.items():
+    Input:
+        mailing_list: dict mapping each user's uuid to their remaining fields,
+                      e.g. {uuid: [username, email, subscribe_status]}
 
-         # Your conditional logic to filter out the unsubscribed users
-         if ():
-     # Remove the key if one of the above conditions is satisfied
+    Output:
+        list of uuids for active, non-gmail users
+    """
+    # Iterate over a copy so we can safely delete from the original
+    mailing_list_copy = mailing_list.copy()
 
+    for key, value in mailing_list_copy.items():
+        email = value[1].lower()
+        status = value[2].lower()
 
-    # An array to collect the final output
+        # Remove opted-out / unsubscribed users and gmail addresses
+        if status == 'opt-out' or status == 'unsubscribed' or '@gmail' in email:
+            del mailing_list[key]
+
     ids = []
 
-    # Loop through the updated mailing list and append the ids of the active users to the `id` list
-    for key, value in  # Your updated dictionary:
-    # Append only the ids of the active users
+    # Collect the ids of the remaining active users
+    for key, value in mailing_list.items():
+        if value[2].lower() == 'active':
+            ids.append(key)
 
-    # Returns the updated mailing list with the active users
     return ids
 
+
+# Alias so the stub's original name also works
+update_mailing_list_extended = update_mailing_list

@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: 
+Error : FileNotFoundError - [Errno 2] No such file or directory: '../dataset/mailing_list.csv'
+Timestamp: 2026-10-10 06:01:24.952180
+
+Status: FAILED!
+Check: 2
+Test: 
+Reason: 
+Error : FileNotFoundError - [Errno 2] No such file or directory: '../dataset/mailing_list.csv'
+Timestamp: 2026-10-10 06:01:24.952373
