@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: The `read_mailing_list_file` function reads in file contents and returns the filtered ids, test 1
 Reason: None
-Timestamp: 2026-10-10 06:03:39.948107
+Timestamp: 2026-10-10 06:03:50.437913
 
 Status: PASSED!
 Check: 2
 Test: The `read_mailing_list_file` function reads in file contents and returns the filtered ids, test 2
 Reason: None
-Timestamp: 2026-10-10 06:03:39.948394
+Timestamp: 2026-10-10 06:03:50.438212
