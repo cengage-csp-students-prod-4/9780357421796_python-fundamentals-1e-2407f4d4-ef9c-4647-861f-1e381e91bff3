@@ -1,0 +1,28 @@
+
+Status: FAILED!
+Check: 1
+Test: 
+Reason: 
+Error : FileNotFoundError - [Errno 2] No such file or directory: 'wages.csv'
+Timestamp: 2026-10-12 05:32:27.964815
+
+Status: FAILED!
+Check: 2
+Test: 
+Reason: 
+Error : FileNotFoundError - [Errno 2] No such file or directory: 'wages.csv'
+Timestamp: 2026-10-12 05:32:27.965064
+
+Status: FAILED!
+Check: 3
+Test: 
+Reason: 
+Error : FileNotFoundError - [Errno 2] No such file or directory: 'wages.csv'
+Timestamp: 2026-10-12 05:32:27.965211
+
+Status: FAILED!
+Check: 4
+Test: 
+Reason: 
+Error : FileNotFoundError - [Errno 2] No such file or directory: 'wages.csv'
+Timestamp: 2026-10-12 05:32:27.965334
