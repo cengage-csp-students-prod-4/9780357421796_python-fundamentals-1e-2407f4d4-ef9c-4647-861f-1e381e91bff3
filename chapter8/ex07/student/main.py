@@ -10,7 +10,7 @@ with open(in_path, "r") as infile, open(out_path, "w", newline="") as outfile:
     writer = csv.writer(outfile)
 
     next(reader)
-    writer.writerow(["employee_name, pay_rate"])  # match Figure 8.6
+    writer.writerow(["employee_name", "pay_rate"])  # match Figure 8.6
 
     for row in reader:
         writer.writerow([row[0], int(row[1]) * 15])
