@@ -1,28 +1,27 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'wages.csv'
-Timestamp: 2026-10-12 05:32:27.964815
+Test: Output file, test 1
+Reason: name,wages
+James Miller,540` was found in the program.None
+Timestamp: 2026-10-12 05:33:09.492241
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'wages.csv'
-Timestamp: 2026-10-12 05:32:27.965064
+Test: Output file, test 2
+Reason: Teresia Brown,615
+` was found in the program.None
+Timestamp: 2026-10-12 05:33:09.492497
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
-Test: 
-Reason: 
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'wages.csv'
-Timestamp: 2026-10-12 05:32:27.965211
+Test: Output file, test 3
+Reason: Mary Laney,600` was found in the program.None
+Timestamp: 2026-10-12 05:33:09.492717
 
 Status: FAILED!
 Check: 4
-Test: 
-Reason: 
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'wages.csv'
-Timestamp: 2026-10-12 05:32:27.965334
+Test: Output file, test 4
+Reason: Unable to find 'employee_name,pay_rate' in the program.
+Error : str - AssertionError
+Timestamp: 2026-10-12 05:33:09.492906

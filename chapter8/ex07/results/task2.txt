@@ -1,7 +1,7 @@
 
 Status: FAILED!
 Check: 1
-Test: 
-Reason: 
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'wages.csv'
-Timestamp: 2026-10-12 05:32:28.325635
+Test: Correct format used in `wages.csv`
+Reason: Unable to find 'employee_name,pay_rate' in the program.
+Error : str - AssertionError
+Timestamp: 2026-10-12 05:33:09.615569
