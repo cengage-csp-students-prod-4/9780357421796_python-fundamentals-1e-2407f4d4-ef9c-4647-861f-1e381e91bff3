@@ -47,4 +47,6 @@ def is_email_valid_extended_finally(mailing_list):
         # This runs no matter what happened in try/except.
         # (Pylance flags a return inside finally; it still runs, and the
         # assignment requires it here.)
-        return final_users_list
+        print("poop")
+    
+    return final_users_list
