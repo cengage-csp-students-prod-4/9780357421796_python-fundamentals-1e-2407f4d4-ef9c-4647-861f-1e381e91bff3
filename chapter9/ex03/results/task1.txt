@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Output is correct
 Reason: None
-Timestamp: 2026-10-17 08:40:30.631779
+Timestamp: 2026-10-17 08:40:41.365593
 
 Status: PASSED!
 Check: 2
 Test: A `try` block was used
 Reason: try` was found in the program.None
-Timestamp: 2026-10-17 08:40:30.632092
+Timestamp: 2026-10-17 08:40:41.365844
 
 Status: PASSED!
 Check: 3
 Test: An `except` block was used
 Reason: except` was found in the program.None
-Timestamp: 2026-10-17 08:40:30.632321
+Timestamp: 2026-10-17 08:40:41.366107
 
 Status: PASSED!
 Check: 4
 Test: Correct error type was declared in the `except` statement
 Reason: AttributeError` was found in the program.None
-Timestamp: 2026-10-17 08:40:30.632525
+Timestamp: 2026-10-17 08:40:41.366304
