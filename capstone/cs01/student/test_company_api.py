@@ -2,12 +2,11 @@ import ipaddress
 import random
 import re
 
+
+
 import pytest
 
-try:
-    from functions import AccessApi as mws
-except ImportError:
-    from accessApi import AccessApi as mws
+from AccessApi import AccessApi as mws
 
 base_url: str = "https://raw.githubusercontent.com/cengage-ide-content/"
 billing_end_point: str = "APItesting/main/getBillingInfo.json"
