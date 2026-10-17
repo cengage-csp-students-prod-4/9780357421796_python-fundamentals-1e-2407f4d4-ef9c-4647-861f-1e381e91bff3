@@ -1,34 +1,49 @@
 # Importing user-defined exception
+from ProblemUserDefinedException import EmailNotValidError
 
 
 def is_email_valid_extended(mailing_list):
-     """
-       Your docstring documentation starts here.
-
-       For more information on how to proper document your function, please refer to the official PEP8:
-        https://www.python.org/dev/peps/pep-0008/#documentation-strings.
-
     """
+    Validate emails and catch EmailNotValidError instead of crashing.
 
+    When an invalid email is found, the exception is caught and a
+    user-friendly message is returned. Note: the loop stops at the first
+    invalid email, so later emails are never checked.
 
-    final_users_list = # Array to hold user ids
+    Args:
+        mailing_list (dict): Maps user IDs to email addresses.
 
-    # Inserted a try.., except.. block to cast the exception
+    Returns:
+        str: A user-friendly error message if an invalid email is found.
+        list: The IDs of users with valid emails if every email is valid.
+    """
+    # Array to hold user ids
+    final_users_list = []
+
+    # Inserted a try.., except.. block to catch the exception
     try:
 
         # Loop through the mailing list
-        for key, email in # Your mailing list:
+        for key, email in mailing_list.items():
 
-
-            if '@' in # Check if the @ is present in the email:
+            # Check if the @ is present in the email
+            if '@' in email:
 
                 # Append the id of users with valid emails
+                final_users_list.append(key)
 
-        else:
+            else:
 
+                # Raises an EmailNotValidError otherwise
+                raise EmailNotValidError(
+                    f"User {key} has an invalid email address: '{email}' (missing '@')."
+                )
 
-            raise # Raises an EmailNotValidError otherwise
-    except # Your user-defined exception:
+    # Catch only our specific exception, never a bare except
+    except EmailNotValidError as error:
 
+        # Return a user-friendly message describing the exception
+        return f"Validation stopped. {error}"
 
-        return # Return a user-friendly message to cast the exception
+    # Reached only if no exception was raised: every email was valid
+    return final_users_list
