@@ -2,17 +2,17 @@
 def createError():
     # Task 1
     # Write your code here
-    friends = dict(
+    """friends = dict(
         name = 'Angel Carvajal', 
         location = 'Santa Barbara'
     )
 
     print(friends['address'])
-
+"""
     # Task 2
     # Write you import modules here
-    
-    
+    import string 
+    string.push(4)
     return
 
 # Use this code to test your function
